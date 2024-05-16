@@ -3,25 +3,38 @@
 @section('content')
 
   <section class="home-1">
-  	<div class="container">
-  		<div class="row align-items-top">
-  			<div class="col-lg-7">
+    <div class="container">
+      <div class="row align-items-top justify-content-between">
+        <div class="col-lg-4">
           <p class="line mb-0">Científicamente medible,</p>
           <h1 style="color: #fff">la Luz <br><span style="color: #513369;">te regula</span></h1>
           <p s>emociones y pensamientos en segundos.</p>
-          <a href="" class="btn btn-dark" style="background: #FFB646;">Comienza con tu <br><b>Demostración</b> <i class="ml-4 fa-solid fa-arrow-up"></i></a>
-          <a href="" class="ml-4 btn btn-outline-dark" style="background:#8562A0; color: #fff">Continua con tu<br> Activación<i class="ml-4 fa-solid fa-arrow-up"></i></a>
+          <div>
+            <a href="" class="btn btn-dark mb-4" style="background: #FFB646;">
+              Comienza con tu <b>Demostración</b>
+              <p class="mb-0">Siente otra dimensión por 15 minutos (gratis)</p>
+              <i class="ml-4 fa-solid fa-arrow-up"></i>
+            </a>
+          </div>
+          <div>
+            <a href="" class="btn btn-outline-dark" style="background:#8562A0; color: #fff">
+              Continua con tu <b>Activación</b>
+              <p class="mb-0">Posee un sexto sentido de por vida</p>
+              <i class="ml-4 fa-solid fa-arrow-up"></i>
+            </a>
+          </div>
+          
         </div>
-  			<div class="col-lg-5">
-  				<img src="{{ url('img/mano.png') }}" alt="" class="img-fluid rounded-circle">
-  			</div>
+        <div class="col-lg-5">
+          <img src="{{ url('img/mano.png') }}" alt="" class="img-fluid rounded-circle">
+        </div>
         <div class="col-lg-6">
           <p><span class="yellow">
             Estás a 1 hora de tener un sexto sentido en las manos que se siente. La Luz te armonizará en segundos. Estás a 1 semana de maestría de la técnica y conceptos. Responder en lugar de reaccionar hace un mundo de diferencia. Activa tu sexto sentido hoy desde casa por siempre.
           </span></p>
         </div>
-  		</div>
-  	</div>
+      </div>
+    </div>
   </section>
 
   <section class="home-4">
@@ -342,7 +355,7 @@
       </div>
     </div>
   </section>
-  <section class="home-11">
+  <!--<section class="home-11">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -379,5 +392,5 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 @stop

@@ -16,6 +16,18 @@
 
     </head>
     <body class="font-sans antialiased">
+        <header class="container-fluid fixed-top">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href=""><img src="{{ url('img/logo.png') }}" alt="" class="logo img-fluid"></a>
+                </div>
+                <div class="col-lg-6 pr-0 text-right login">
+                    <a href="">
+                        <img src="{{ url('img/Vector.png') }}" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
         <div class="min-h-screen bg-gray-100">
             
 

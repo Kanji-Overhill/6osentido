@@ -1,92 +1,94 @@
-@font-face {
+
+
+    @font-face {
   font-family: 'Satoshi-Light';
-  src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
        url('../fonts/Satoshi-Light.woff') format('woff'),
        url('../fonts/Satoshi-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-LightItalic';
-  src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
        url('../fonts/Satoshi-LightItalic.woff') format('woff'),
        url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Regular';
-  src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
        url('../fonts/Satoshi-Regular.woff') format('woff'),
        url('../fonts/Satoshi-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Italic';
-  src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
        url('../fonts/Satoshi-Italic.woff') format('woff'),
        url('../fonts/Satoshi-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Medium';
-  src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
        url('../fonts/Satoshi-Medium.woff') format('woff'),
        url('../fonts/Satoshi-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-MediumItalic';
-  src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
        url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
        url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Bold';
-  src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
        url('../fonts/Satoshi-Bold.woff') format('woff'),
        url('../fonts/Satoshi-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-BoldItalic';
-  src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
        url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
        url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Black';
-  src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
        url('../fonts/Satoshi-Black.woff') format('woff'),
        url('../fonts/Satoshi-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Satoshi-BlackItalic';
-  src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
        url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
        url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
 }
 /**
 * This is a variable font
@@ -96,14 +98,14 @@
 * available axes:
 'wght' (range from 300.0 to 900.0
 */
-@font-face {
+    @font-face {
   font-family: 'Satoshi-Variable';
-  src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
        url('../fonts/Satoshi-Variable.woff') format('woff'),
        url('../fonts/Satoshi-Variable.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: normal;
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
 }
 /**
 * This is a variable font
@@ -113,17 +115,16 @@
 * available axes:
 'wght' (range from 300.0 to 900.0
 */
-@font-face {
+    @font-face {
   font-family: 'Satoshi-VariableItalic';
-  src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+    src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
        url('../fonts/Satoshi-VariableItalic.woff') format('woff'),
        url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: italic;
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: italic;
 }
-
-@font-face {
+    @font-face {
     font-family: 'Claston';
     src: url('Claston-Regular.woff2') format('woff2'),
         url('Claston-Regular.woff') format('woff');
@@ -131,24 +132,43 @@
     font-style: normal;
     font-display: swap;
 }
-:root {
+:
+    root {
     --yellow: #FFB646;
     --white: #fff;
 
 }
-h1,h2,h3,h4,h5{
+    h1,h2,h3,h4,h5{
     font-family: 'Claston';
     color: #513369;
 }
 .white{
     color: #fff;
 }
-b{
+    b{
     font-family: 'Satoshi-Bold';
 }
-body{
+    body{
     font-family: 'Satoshi-Regular';
     color: #535252;
+}
+    header{
+    background: #fff;
+    padding: 0;
+}
+    header .logo{
+    max-width: 171px;
+    padding: .3rem;
+    margin-left: 1rem;
+}
+    header .login a{
+    padding: .5rem;
+    display: inline-block;
+    background: #2D082E;
+}
+    header .login img{
+    width: 100%;
+    max-width: 36px;
 }
 .fa-arrow-up{
     rotate: 45deg;
@@ -174,66 +194,65 @@ body{
     background-color: #2D082E;
     padding-top: 6rem;
     /* padding-bottom: 6rem; */
-    background-image: url(../img/back-home.svg);
-    background-size: cover;
+    background-image: url(../img/back-home-test.svg);
+    background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 750px;
-    background-position-y: -280px;
+    min-height: 100%;
+    background-position-y: 50%;
 }
-.home-1 a{
-    font-family: 'Claston';
+.home-1
+    a{
+    font-family: 'Satoshi-Regular';
     border-radius: 15px;
     padding-top: 15px;
     position: relative;
     padding-bottom: 15px;
     border: 0px;
+    display: block;
     line-height: 1;
     text-align: left;
     min-width: 200px;
 }
-.home-1 a.btn-dark{
+.home-1
+    a.btn-dark{
     color: #513369;
     font-weight: 100;
 }
-.home-1 a.btn-dark::after{
-    content: 'Siente otra dimensión por 15 minutos (gratis)';
-    font-family: 'Satoshi-Regular';
-    text-align: center;
-    position: absolute;
-    color: #535252;
-    bottom: -39px;
-    width: 100%;
-    left: 0;
+.home-1
+    a.btn-dark p{
+    color: #8562A0;
     font-size: .9rem;
-    padding: 0 1.2rem;
 }
-.home-1 a.btn-outline-dark::after{
-    content: 'Posee un sexto sentido de por vida';
-    font-family: 'Satoshi-Regular';
-    text-align: center;
-    position: absolute;
-    color: #535252;
-    bottom: -39px;
-    width: 100%;
-    left: 0;
-    font-size: .9rem;
-    padding: 0 1.2rem;
 
+.home-1
+    a.btn-outline-dark{
+    color: #fff;
+    font-weight: 100;
 }
-.home-1 h1{
+
+.home-1
+    a.btn-outline-dark p{
+    color: #FFB646;
+    font-size: .9rem;
+}
+.home-1
+    h1{
     font-size: 4rem;
 }
-.home-1 p span.yellow{
+.home-1
+    p span.yellow{
     font-size: 1.1rem;
 }
-.home-1 .col-lg-6 p{
-    margin-top: -100px;
+.home-1 .col-lg-6
+    p{
+    margin-top: -17%;
 }
 .line{
     position: relative;
     padding-left: 80px;
 }
-.line::before{
+.line::
+    before{
     content: '';
     width: 75px;
     position: absolute;
@@ -246,10 +265,11 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
-a:hover{
+    a:hover{
     text-decoration: none;
 }
-.home-2 .col-md-6 a{
+.home-2 .col-md-6
+    a{
     display: block;
     color: #000000;
     text-align: center;
@@ -259,20 +279,24 @@ a:hover{
     padding-bottom: 1rem;
     font-size: 2.5rem;
 }
-.home-2 .col-md-6:first-child a{
+.home-2 .col-md-6:
+    first-child a{
     border-bottom: 10px solid #ebe9f2;
 }
-.home-2 .col-md-6:nth-child(2) a{
+.home-2 .col-md-6:nth-child(2)
+    a{
     border-bottom: 10px solid #707070;
 }
-.home-2 .col-md-6 a:hover{
+.home-2 .col-md-6
+    a:hover{
     border-color: #000000;
 }
 .home-2 .col-12{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-.home-2 .col-12 h2{
+.home-2 .col-12
+    h2{
     font-size: 3rem;
 }
 
@@ -280,13 +304,16 @@ a:hover{
     background: #ebe9f2;
     padding: 3rem;
 }
-.home-3 h2{
+.home-3
+    h2{
     font-size: 3rem;
 }
-.home-3 p{
+.home-3
+    p{
     font-size: .9rem;
 }
-.home-3 h3 span{
+.home-3
+    h3 span{
     color: #ffb646;
 }
 .element-box{
@@ -294,7 +321,8 @@ a:hover{
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-.home-3 .row .col-lg-4:first-child .element-box{
+.home-3 .row .col-lg-4:
+    first-child .element-box{
     background-image: url(../img/dots1.png);
     background-position: right;
     background-size: contain;
@@ -306,7 +334,8 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.home-3 .row .col-lg-4:last-child .element-box{
+.home-3 .row .col-lg-4:
+    last-child .element-box{
     background-image: url(../img/dots3.png);
     background-position: right;
     background-size: contain;
@@ -315,14 +344,14 @@ a:hover{
 .home-4 .col-lg-4{
     background: #f5f5f5;
 }
-
-a.link-arrow{
+    a.link-arrow{
     display: block;
     text-align: right;
     line-height: 1;
     color: #535252;
 }
-.home-4 h3 span{
+.home-4
+    h3 span{
     color: #FFB646;
 }
 .home-4{
@@ -336,11 +365,12 @@ a.link-arrow{
     padding-bottom: 3rem;
     background-repeat: no-repeat;
 }
-.home-4 p, .home-4 h2{
+.home-4
+    p, .home-4 h2{
     color: #fff;
 }
 .box-video{
-    background-size: cover;    
+    background-size: cover;
     background-position: center;
     position: relative;
     min-height: 255px;
@@ -353,7 +383,8 @@ a.link-arrow{
     top: 20px;
     right: 20px;
 }
-.box-video p{
+.box-video
+    p{
     font-family: 'Satoshi-Bold';
     font-size: 1rem;
     font-weight: bold;
@@ -368,13 +399,14 @@ a.link-arrow{
     width: 100%;
     background: rgba(0,0,0,.5);
 }
-.box-video p i{
+.box-video
+    p i{
     color: #FFB646;
 }
-span.yellow{
+    span.yellow{
     color: #FFB646;
 }
-span.morado{
+    span.morado{
     color: #513369;
 }
 .home-5{
@@ -386,13 +418,13 @@ span.morado{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.home-6 a{
+.home-6
+    a{
     background: #fff;
     display: block;
     position: relative;
     margin-bottom: 1rem;
     width: 400px;
-    
     border-radius: 10px;
     transition: all .3s;
     padding-top: 15px;
@@ -404,32 +436,33 @@ span.morado{
     color: #2D082E;
 }
 
-.home-6 a i{
+.home-6
+    a i{
     color: #2D082E;
     position: absolute;
     right: 15px;
     text-align: right;
     rotate: 90deg;
 }
-.home-6 a:hover{
+.home-6
+    a:hover{
     background: #e2dde1;
     color: #513369;
     font-family: 'Satoshi-Bold';
     border-left: 12px solid;
 }
-.home-6 a:hover i{
-    
-}
-.home-6 a.active{
+.home-6
+    a:hover i{}
+.home-6
+    a.active{
     background: #e2dde1;
     color: #513369;
     font-family: 'Satoshi-Bold';
     border-left: 12px solid;
     transition: all .3s;
 }
-.home-6 a.active i{
-  
-}
+.home-6
+    a.active i{}
 
 
 .home-7{
@@ -437,22 +470,22 @@ span.morado{
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-.home-7 p{
-    color: #fff
-}
+.home-7
+    p{
+    color: #fff}
 
 .home-8{
     background: #F5F5F5;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.home-8 a{
+.home-8
+    a{
     background: #fff;
     display: block;
     position: relative;
     margin-bottom: 1rem;
     width: 400px;
-    
     border-radius: 10px;
     transition: all .3s;
     padding-top: 15px;
@@ -464,31 +497,38 @@ span.morado{
     color: #2D082E;
 }
 
-.home-8 a i{
+.home-8
+    a i{
     color: #2D082E;
     position: absolute;
     right: 15px;
     text-align: right;
 }
-.home-8 a:hover{
+.home-8
+    a:hover{
     background: #2D082E;
     color: #fff;
 }
-.home-8 a:hover i{
+.home-8
+    a:hover i{
     color: #fff;
 }
-.home-8 a.active{
+.home-8
+    a.active{
     background: #2D082E;
     color: #fff;
 }
-.home-8 a.active i{
+.home-8
+    a.active i{
     color: #fff;
 }
-.resenas .col-lg-3 img{
+.resenas .col-lg-3
+    img{
     width: 35px;
     margin-bottom: 1rem;
 }
-.resenas .col-lg-3 p b{
+.resenas .col-lg-3
+    p b{
     color: #fff;
 }
 .home-9{
@@ -499,7 +539,8 @@ span.morado{
 .home-9 .box-video{
     border-radius: 10px;
 }
-.home-9 .box-video p{
+.home-9 .box-video
+    p{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -509,12 +550,13 @@ span.morado{
     background: linear-gradient(180deg, #513369 0%, #000000 100%);
 
 }
-.home-10 p{
+.home-10
+    p{
     color: #2D082E;
 }
-.home-10 h1{
-    color: #8562A0
-}
+.home-10
+    h1{
+    color: #8562A0}
 .horarios{
     position: relative;   
 }
@@ -525,7 +567,8 @@ span.morado{
     left: 15px;
     width: 90%;
 }
-.horarios .texto p{
+.horarios .texto
+    p{
     font-size: 1.2rem;
 }
 .home-11{
@@ -533,37 +576,36 @@ span.morado{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.home-11 ul{
+.home-11
+    ul{
     list-style: none;
     margin-left: 0;
     padding-left: 0;
     text-align: center;
 }
-.home-11 ul li:first-child{
+.home-11
+    ul li:first-child{
      border-left: 1px solid #fff;
 }
-.home-11 ul li{
+.home-11
+    ul li{
     border-right: 1px solid #fff;
     padding: 1rem 3rem;
     list-style: none;
     display: inline-block;
 }
-.home-11 ul li p{
+.home-11
+    ul li p{
     margin-bottom: 0;
     color: var(--yellow);
     text-align: center;
 }
-.home-11 ul li h3{
+.home-11
+    ul li h3{
     color: var(--white);
 }
-
-
-
-
-
-
-
-.home-10 a{
+.home-10
+    a{
     font-family: 'Claston';
     border-radius: 15px;
     padding-top: 15px;
@@ -575,10 +617,11 @@ span.morado{
     min-width: 200px;
     width: 100%;
 }
-.home-10 a .fa-arrow-up{
-    top: 17px
-}
-.home-10 a.btn-dark{
+.home-10
+    a .fa-arrow-up{
+    top: 17px}
+.home-10
+    a.btn-dark{
     color: #513369;
     font-weight: 100;
 }
@@ -587,4 +630,51 @@ span.morado{
     padding: 1rem;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+/*Styles Scheduler View*/
+.scheduler-head{
+    background: #fff;
+}
+.navbar-nav .nav-item{
+    margin-left: 3rem;
+    border-bottom: 2px solid #fff;
+}
+.navbar-nav .nav-item a{
+    font-family: 'Satoshi-Regular';
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 1.5rem;
+    transition: all .3s;
+}
+.navbar-nav .nav-item.active a{
+    font-family: 'Satoshi-Bold';
+    color: #2D082E!important;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #2D082E;
+}
+.navbar-nav .nav-item:hover a{
+    font-family: 'Satoshi-Bold';
+    color: #2D082E!important;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #2D082E;
+}
+.navbar-nav .nav-item a{
+    font-family: 'Satoshi-Regular';
+    font-weight: 400;
+    color: #666666;
+}
+
+.scheduler-1{
+    background-color: #ebe9f2;
+    background-image: url(../img/create-account-back.svg);
+    background-size: cover;
+    padding-top: 150px;
+    
+}
+.scheduler-1 .row{
+  
+}
+.scheduler-1 img{
+    max-width: 500px;
 }
