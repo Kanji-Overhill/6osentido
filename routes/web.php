@@ -17,9 +17,22 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/register-account', function () {
-    return view('scheduler');
-});
+//Routes Introduction
+Route::get('/register-account-introduction', function () {
+    return view('register-account-introduction');
+})->name('register-account-introduction');
+
+Route::get('/scheduled-session-introduction', function () {
+    return view('scheduled-session-introduction');
+})->name('scheduled-session-introduction');
+
+Route::get('/preferences-introduction', function () {
+    return view('preferences-introduction');
+})->name('preferences-introduction');
+
+Route::get('/booking-introduction', function () {
+    return view('booking-introduction');
+})->name('booking-introduction');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

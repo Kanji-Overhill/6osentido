@@ -142,6 +142,9 @@
     font-family: 'Claston';
     color: #513369;
 }
+.bg-white{
+    background: #fff;
+}
 .white{
     color: #fff;
 }
@@ -670,6 +673,7 @@
     background-image: url(../img/create-account-back.svg);
     background-size: cover;
     padding-top: 150px;
+    padding-bottom: 2rem;
     
 }
 .scheduler-1 .row{
@@ -677,4 +681,162 @@
 }
 .scheduler-1 img{
     max-width: 500px;
+}
+.scheduled-session-box{
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    margin-bottom: 3rem;
+}
+.scheduled-session-box img{
+    max-width: 200px;
+}
+#contador{
+    color: #513369;
+    font-size: 60px;
+}
+.button-b {
+    display: inline-block;
+    color: #c199e0;
+    font-weight: 400;
+    border-radius: 6px;
+    padding-top: 15px;
+    position: relative;
+    font-family: 'Satoshi-Bold';
+    padding-bottom: 15px;
+    border: 0px;
+    line-height: 1;
+    text-align: left;
+    background: #2D082E;
+    min-width: 200px;
+    width: 100%;
+}
+.button-b i{
+    color: #fff;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+}
+.button-b.disabled {
+    display: inline-block;
+    color: #666666;
+    font-weight: 400;
+    border-radius: 6px;
+    padding-top: 15px;
+    position: relative;
+    padding-bottom: 15px;
+    border: 0px;
+    line-height: 1;
+    text-align: left;
+    background: #A1A1A1;
+    min-width: 200px;
+    width: 100%;
+}
+.button-b.disabled i{
+    color: #fff;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+}
+.fecha-box{
+    color: #2D082E;
+    border-radius: 15px;
+    padding-bottom: 1rem;
+}
+.fecha-box p{
+    font-size: 45px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 0;
+    color: #2D082E;
+    margin-bottom: 0;
+    transition: all .3s;
+}
+.fecha-box.selected{
+    color: #fff;
+    background: #513369;
+}
+.fecha-box.selected p{
+    color: #fff;
+    font-family: 'Satoshi-Bold';
+}
+.fecha-box span{
+     color: #2D082E;
+     transition: all .3s;
+     text-transform: uppercase;
+}
+.fecha-box.selected span{
+    color: #fff;
+    font-family: 'Satoshi-Bold';
+}
+.horario-box{
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+     transition: all .3s;
+}
+.horario-box label{
+    padding: 1rem 0rem;
+    cursor: pointer;
+    transition: all .3s;
+    background: #fff;
+    display: block;
+    border-radius: 6px;
+}
+.horario-box:hover label{
+
+     background: #513369;
+}
+.horario-box:hover label{
+    color: #fff;
+}
+.dateIntroduction:checked + label {
+    background-color: #513369;
+    color: #fff;
+}
+.tagify__input{
+    padding-left: 2rem!important;
+}
+.form-c{
+    padding: 2rem;
+}
+.form-control, .custom-select {
+      background-color: #EAE5ED;
+      border-radius: 6px;
+      border: none;
+      padding-left: 40px;
+    }
+.form-control .custom-select::placeholder{
+    color: #2D082E;
+}
+    .form-group label {
+      font-weight: bold;
+      display: block;
+    }
+    .input-icon {
+      position: relative;
+    }
+    .input-icon > i {
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      transform: translateY(-50%);
+      color: #513369
+}
+.tagify{
+    padding-left: 35px!important;
+    border-radius: 7px;
+}
+.tagify__input{
+    min-height: 100px;
+}
+.sintoma{
+     background-color: #EAE5ED;
+      border-radius: 6px!important
+}
+.tagify__tag>div, .tagify__tag{
+   background: #513369;
+    color: #fff!important;
+}
+.tagify__tag>div>*{
+    color: #fff!important;
 }
