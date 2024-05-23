@@ -34,6 +34,29 @@ Route::get('/booking-introduction', function () {
     return view('booking-introduction');
 })->name('booking-introduction');
 
+//Routes Activation
+Route::get('/register-account-activation', function () {
+    return view('scheduler-activation/register-account');
+})->name('register-account-activation');
+
+Route::get('/scheduled-session-activation', function () {
+     return view('scheduler-activation/scheduled-session');
+})->name('scheduled-session-activation');
+
+Route::get('/preferences-activation', function () {
+    return view('scheduler-activation/preferences');
+})->name('preferences-activation');
+
+Route::get('/booking-activation', function () {
+     return view('scheduler-activation/booking');
+})->name('booking-activation');
+
+Route::get('/payment-activation', function () {
+     return view('scheduler-activation/payment-activation');
+})->name('payment-activation');
+
+
+//Others
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
